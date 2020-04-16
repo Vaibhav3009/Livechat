@@ -1,0 +1,205 @@
+body,html{
+margin:0;
+top:0;
+}
+.container{
+display: grid;
+}
+.head{
+position: relative;
+display: grid;
+grid-template-columns: 1fr  1fr;
+grid-template-rows: 2fr;
+background-color: white;
+}
+#w{
+color:grey;
+font-weight: bold;
+font-size: 30px;
+text-align: left;
+padding-left:20px;
+margin-top:10px;
+}
+#l{
+color: black;
+font-weight: lighter;
+float: right;
+text-align: right;
+padding-right: 20px;
+}
+.navbar{
+ background-color: lawngreen;
+    overflow: hidden;
+    
+    width: 100%;
+       
+    
+}
+.fors{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 14px;
+    font-weight: bolder;
+    color: aliceblue;
+    float:right;
+    margin-right:20px;
+}
+.fors:hover{
+    background-color: black;
+}
+.t,.active{
+
+	text-decoration: none;
+	font-size: 20px;
+	padding: 14px 14px;
+    font-weight: bolder;
+    color: aliceblue;
+   float: left;
+}
+.t:hover{
+    background-color: black;
+}
+.active:hover{
+    background-color: black;
+}
+.drop{
+    
+    outline: zero;
+    margin:0;
+    border: 0;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: inherit;
+    font-weight: bolder;
+    padding: 14px 14px;
+
+}
+.content{
+    
+    display: none;
+    position: absolute;
+    background-color:azure;
+    width: 100px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    
+}
+.p{
+    text-decoration: none;
+    display: block;
+    float: none;
+    font-size: 18px;
+    color: mediumpurple;
+    padding: 30px;
+    
+    
+    
+}
+.b{
+    height:auto;
+  text-align: center;
+}
+button{
+    
+    margin-left:150px;
+    outline: zero;
+    margin: 0;
+    border: 0;
+    padding: 14px 14px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray
+    
+}
+button:hover{
+    
+    cursor:pointer;
+    font-size: 19PX;
+}
+.dropdown{
+    width:150px;
+    float: left;
+    
+}
+.drop:hover{
+    background-color: black;
+}
+.dropdown:hover .content{
+    
+    display:block;
+    float:left;
+    
+}
+.p:hover{
+    
+    background-color: grey;
+    color:white;
+}
+.con{
+    
+    display: grid;
+    grid-template-columns:0.5fr 1.75fr 1fr;
+   
+    
+}
+.vo{
+    grid-template-columns: 0.5fr 1.75fr 1fr;
+    
+}
+.af{
+    
+    
+    background-color: whitesmoke;
+    font-weight:bolder;
+    font-size:23px;
+    
+}
+.af li:hover{
+    background-color:gray;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.
+.car{
+    
+    position: relative;
+    
+}
+.Main{
+  height:427.19px;  
+}
+.rightside{
+    height:40%;
+    background-color:lightgray;
+    margin:20px;
+    
+}
+.rightside1{
+     height:40%;
+    background-color:lightgray;
+    margin:20px;
+}
+.inner{
+    position: relative;
+    top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-left-color: green;
+    border-left:2px;
+    background-color: aliceblue;
+    
+}
+.inner1{
+ position: relative;
+    top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+       border-left:10px solid green;
+    background-color: aliceblue;    
+}
+
